@@ -33,7 +33,6 @@ def start(message):
 
 def sendNewChapter(message):
 	global bot
-	global pages
 	html=''
 	link=str(message.text)
 	link=link.replace('/get ', '')
