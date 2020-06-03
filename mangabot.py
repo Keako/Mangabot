@@ -12,7 +12,6 @@ bot_token = '1182191112:AAEgX1OJpBk9Osl7frDKf-QiemJym0Vk7SY'
 bot = telebot.TeleBot(bot_token)
 telegraph_token = 'ab3a996c9eba6b2ec0c264e6a351f55fcdc07fb0ebe71910e02569ee7de4'
 
-#TestTestTest
 
 @bot.message_handler(content_types=['text'])
 def start(message):
