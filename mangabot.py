@@ -115,6 +115,7 @@ def checkNewChapter():
 	for ui in users:
 
 		for u in ui:
+			check = 0
 			sql = "SELECT link FROM manga"
 			cur.execute(sql)
 			result = cur.fetchall()
