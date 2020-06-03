@@ -19,7 +19,7 @@ def start(message):
 	if '/get' in message.text:
 		sendNewChapter(message)
 	elif '/add' in message.text:
-#		bot.send_message(message.from_user.id, "Пришилите ссылку на мангу")
+##		bot.send_message(message.from_user.id, "Пришилите ссылку на мангу")
 		addNewManga(message)
 	elif '/info' in message.text:
 		instruct = 'Если хотите прочитать главу, напишите боту "/get #ссылка".\nЕсли хотите добавить мангу, напишите "/add #ссылка"'
